@@ -1,0 +1,56 @@
+body {
+    text-align: center;
+    display: block;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+#main {
+    background-color: #eee;
+    border-radius: 7px;
+    margin: 20px 7px;
+    padding: 5px 10px;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-div {
+    background: white;
+    padding: 10px;
+}
+
+figcaption {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+ul {
+    margin: 0 auto 50px auto;
+    line-height: 1.6;
+    max-width: 500px;
+    align-content: center;
+}
+
+li {
+    text-align: left;
+    margin: 15px 0;
+   
+}
+
+blockquote {
+    margin: 0 auto 50px auto;
+    max-width: 500px;
+    text-align: left;
+}
+
+ul li::marker {
+    font-size: 1.5em;
+}
